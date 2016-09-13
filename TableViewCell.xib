@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellID" id="KGk-i7-Jjw" customClass="TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="109"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="56s-Jb-mBH">
+                        <rect key="frame" x="8" y="5" width="359" height="99"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="store_name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W8I-Sv-h5O">
+                        <rect key="frame" x="27" y="9" width="177" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="177" id="4CR-K8-Jez"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="distance" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o14-S2-IMC">
+                        <rect key="frame" x="263" y="11" width="55" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="address" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSF-Ty-ujX">
+                        <rect key="frame" x="27" y="37" width="246" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="246" id="bo0-1U-aFU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cellrightItem.png" translatesAutoresizingMaskIntoConstraints="NO" id="lvv-EM-XS5">
+                        <rect key="frame" x="334" y="35" width="17" height="26"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrY-jV-ZRx">
+                        <rect key="frame" x="27" y="71" width="117" height="20"/>
+                        <state key="normal" image="axldaozheli.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="onButtonUp:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Pjt-xP-GNG"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="_______________________________" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwK-tj-oOS">
+                        <rect key="frame" x="27" y="49" width="275" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8P-Lu-Bnf">
+                        <rect key="frame" x="170" y="71" width="111" height="20"/>
+                        <state key="normal" image="axlphone.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="onButtonService:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="jpg-vs-216"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="o14-S2-IMC" secondAttribute="trailing" constant="49" id="9Wa-Qk-VQv"/>
+                    <constraint firstItem="W8I-Sv-h5O" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="19" id="Bis-5v-tt9"/>
+                    <constraint firstItem="wSF-Ty-ujX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="19" id="IS9-7N-EmU"/>
+                    <constraint firstItem="lvv-EM-XS5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="27" id="KPd-KG-BbH"/>
+                    <constraint firstItem="W8I-Sv-h5O" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="1" id="NU2-xK-nya"/>
+                    <constraint firstItem="o14-S2-IMC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="3" id="ONM-9H-Kgf"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="56s-Jb-mBH" secondAttribute="bottom" constant="-3" id="Sq7-Sa-6oI"/>
+                    <constraint firstItem="56s-Jb-mBH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="abn-4L-fRx"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="lvv-EM-XS5" secondAttribute="trailing" constant="16" id="edc-l2-QyI"/>
+                    <constraint firstItem="56s-Jb-mBH" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="f1C-Hw-dXh"/>
+                    <constraint firstItem="56s-Jb-mBH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-3" id="jyT-Rc-Tk5"/>
+                    <constraint firstItem="wSF-Ty-ujX" firstAttribute="top" secondItem="o14-S2-IMC" secondAttribute="bottom" constant="5" id="ogQ-R8-idw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="address" destination="wSF-Ty-ujX" id="GOY-p9-Qei"/>
+                <outlet property="distance" destination="o14-S2-IMC" id="cnK-UI-bEH"/>
+                <outlet property="img" destination="56s-Jb-mBH" id="dP3-yU-VbK"/>
+                <outlet property="store_name" destination="W8I-Sv-h5O" id="P2o-2q-NMx"/>
+            </connections>
+            <point key="canvasLocation" x="366.5" y="234"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="axldaozheli.png" width="105" height="31"/>
+        <image name="axlphone.png" width="91" height="31"/>
+        <image name="cellrightItem.png" width="12" height="23"/>
+    </resources>
+</document>
